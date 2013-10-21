@@ -1,0 +1,6 @@
+== README
+
+`rails new blog`
+`rails g scaffold Post title:string content:text`
+`rake db:migrate`
+
