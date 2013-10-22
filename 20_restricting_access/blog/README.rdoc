@@ -2,5 +2,7 @@
 
 `rails new blog`
 `rails g scaffold Post title:string content:text`
+`rails g controller Sessions create destroy`
 `rake db:migrate`
+
 

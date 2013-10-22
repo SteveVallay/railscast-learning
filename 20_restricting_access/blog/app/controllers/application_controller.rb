@@ -7,7 +7,8 @@ class ApplicationController < ActionController::Base
 end
 
 def admin?
-  false
+  #request.remote_ip == "10.231.216.45"
+  #request.remote_ip == "127.0.0.1"
 end
 
 def authorize
