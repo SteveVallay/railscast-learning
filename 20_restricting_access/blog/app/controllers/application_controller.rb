@@ -9,6 +9,7 @@ end
 def admin?
   #request.remote_ip == "10.231.216.45"
   #request.remote_ip == "127.0.0.1"
+  session[:password] == 'admin'
 end
 
 def authorize
